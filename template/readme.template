@@ -1,0 +1,55 @@
+----------------------------------------------------------------------------------------
+🛠️ <<<Add the project name.>>>
+----------------------------------------------------------------------------------------
+Version: <<<I will write the version number.>>>
+Author: Cem Kefeli – cemkefeli.com
+
+<<<Add a detailed description of the project.>>>
+
+----------------------------------------------------------------------------------------
+📜 VERSION HISTORY <<<Create the template and leave it blank. Example is below.>>>
+----------------------------------------------------------------------------------------
+Version | Date       | Description                                                    
+--------|------------|------------------------------------------------------------------
+v1.0.0  |            |         
+v1.1.0  |            | 
+
+----------------------------------------------------------------------------------------
+✨ FEATURES <<<List the project features in bullet points. Example is below.>>>
+----------------------------------------------------------------------------------------
+- Moves the content of a specified file into a rotated file.
+- Rotated filename supports date-time patterns (yyyyMMdd_hhmmss).
+- Preserves original file extension.
+- Clears the original file after rotation.
+- Logs all operations with timestamps.
+- Configurable via a simple environment file.
+- ...
+
+-----------------------------------------------------------------------------------------
+📂 FOLDER STRUCTURE <<<Outline the directory structure. Example is below.>>>
+-----------------------------------------------------------------------------------------
+project-root/
+├── Rotate-Files.sh          # Main bash script performing file rotation
+├── Rotate-Files.config.env  # Configuration file
+└── README.md                # This documentation
+
+-----------------------------------------------------------------------------------------
+🧩 REQUIREMENTS <<<List the project requirements in bullet points. Example is below.>>>
+-----------------------------------------------------------------------------------------
+- Operating System: Linux / macOS / Windows
+- Runtime or language: (Node.js, Python, Bash, .NET, etc.)
+- ...
+
+-----------------------------------------------------------------------------------------
+▶️ USAGE <<<Write which parameters the script will use. Example is below.>>>
+-----------------------------------------------------------------------------------------
+./Rotate-Files.sh <path_to_config_file>
+
+-----------------------------------------------------------------------------------------
+📘 Example <<<Show an example of how to use the script. Example is below.>>>
+-----------------------------------------------------------------------------------------
+./Rotate-Files.sh /path/to/Rotate-Files.config.env
+
+- Pass the path to the configuration file as the only parameter.
+- The configuration spec defined in Rotate-Files.config.env
+- ...
