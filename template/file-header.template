@@ -1,0 +1,21 @@
+# ========================================================================================
+#  Author        : Cem Kefeli - cemkefeli.com
+#  File Name   : <<<Write the file name here, including its extension.>>>
+#  Created Date  : <<<Write the file creation date here in dd.mm.yyyy hh:MM:ss format. Update this only when the file is first created. Never update it again afterwards.>>>
+#  Modified Date : <<<Write the file last edited date here in dd.mm.yyyy hh:MM:ss format. It should be the same as "created" when first created. Whenever I request a change, make sure to update this field.>>>
+# ========================================================================================
+#  Description   : <<<List the functions, features, capabilities, and description of this file in bullet points. An example is below.>>>
+#      - Archive-Files.sh processes files and folders in a given root folder
+#        based on age thresholds.
+#      - Uses configuration file to get ROOT_FOLDER, ARCHIVE_FOLDER, FILE_PATTERN,
+#        and T1/T2/T3 age thresholds.
+#      - Actions:
+#          * Files/folders older than T1 days: tar.gz compressed
+#          * Files/folders older than T2 days: moved to archive folder
+#          * Files/folders older than T3 days (in archive): deleted
+#      - All operations are logged to a log file.
+# ========================================================================================
+#  Notes         : <<<List any special topics or notes you want to add in bullet points. An example is below.>>>
+#      - Archive folder is created automatically if not exist.
+#      - Both files and folders are processed the same way.
+# ========================================================================================
